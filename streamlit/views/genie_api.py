@@ -26,7 +26,7 @@ with tab_a:
         st.session_state.messages = []
 
     genie_space_id = st.text_input(
-        "Genie Space ID", placeholder="01efe16a65e21836acefb797ae6a8fe4", help="Room ID in the Genie Space URL"
+        "Genie Space ID", placeholder="01efe79dda311f3f9f607dc3fb7bada7", help="Room ID in the Genie Space URL"
     )
     if genie_space_id != st.session_state.get("genie_space_id", ""):
         reset_conversation()
@@ -126,7 +126,7 @@ import pandas as pd
 
 w = WorkspaceClient()
 
-genie_space_id = "01f0023d28a71e599b5a62f4117916d4"
+genie_space_id = "01efe79dda311f3f9f607dc3fb7bada7"
 
 
 def display_message(message):
